@@ -1,0 +1,5 @@
+/* Additional footer styles if needed */
+.footer__section input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+

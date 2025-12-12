@@ -1,0 +1,18 @@
+.navbar__nav {
+  display: flex;
+  gap: var(--spacing-md);
+  list-style: none;
+  
+  li {
+    list-style: none;
+  }
+}
+
+.navbar__link.active {
+  color: var(--color-sky-blue);
+  
+  &::after {
+    width: 100%;
+  }
+}
+

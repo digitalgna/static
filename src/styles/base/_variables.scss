@@ -1,0 +1,41 @@
+// Brand Colors
+:root {
+  --color-royal-blue: #0D1B4C;
+  --color-sky-blue: #4FAFE3;
+  --color-white: #FFFFFF;
+  --color-silver: #DDE3EB;
+  --color-gold: #E1B156;
+  
+  // Gradients
+  --gradient-primary: linear-gradient(135deg, var(--color-royal-blue) 0%, var(--color-sky-blue) 100%);
+  --gradient-gold: linear-gradient(135deg, var(--color-gold) 0%, #F5D76E 100%);
+  
+  // Typography
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  
+  // Spacing
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+  
+  // Shadows
+  --shadow-sm: 0 2px 8px rgba(13, 27, 76, 0.1);
+  --shadow-md: 0 4px 16px rgba(13, 27, 76, 0.15);
+  --shadow-lg: 0 8px 32px rgba(13, 27, 76, 0.2);
+  --shadow-xl: 0 16px 64px rgba(13, 27, 76, 0.25);
+  
+  // Border Radius
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  
+  // Transitions
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+

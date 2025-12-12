@@ -1,0 +1,136 @@
+.destinations {
+  padding-top: 80px;
+}
+
+.destinations-hero {
+  position: relative;
+  height: 60vh;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(13, 27, 76, 0.8) 0%, rgba(79, 175, 227, 0.6) 100%);
+    }
+  }
+  
+  &__content {
+    text-align: center;
+    color: var(--color-white);
+    z-index: 1;
+    
+    h1 {
+      color: var(--color-white);
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      margin-bottom: var(--spacing-md);
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    p {
+      font-size: 1.5rem;
+      opacity: 0.95;
+    }
+  }
+}
+
+.destinations-grid-section {
+  background: var(--color-white);
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-lg);
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.destination-card-wrapper {
+  position: relative;
+}
+
+.destination-card {
+  height: 500px;
+  
+  .destination-details {
+    padding: var(--spacing-md);
+    background: rgba(13, 27, 76, 0.95);
+    margin-top: auto;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  }
+  
+  h4 {
+    color: var(--color-gold);
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.125rem;
+  }
+}
+
+.destination-highlights {
+  list-style: none;
+  padding: 0;
+  margin-bottom: var(--spacing-md);
+  
+  li {
+    padding: var(--spacing-xs) 0;
+    color: rgba(255, 255, 255, 0.9);
+    
+    &::before {
+      content: '✓ ';
+      color: var(--color-gold);
+      font-weight: 600;
+      margin-right: var(--spacing-xs);
+    }
+  }
+}
+
+.destination-cta {
+  padding-top: var(--spacing-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.cta-section {
+  background: var(--gradient-primary);
+  color: var(--color-white);
+  text-align: center;
+  
+  .cta-content {
+    h2 {
+      color: var(--color-white);
+      font-size: clamp(2rem, 4vw, 3rem);
+      margin-bottom: var(--spacing-md);
+    }
+    
+    p {
+      font-size: 1.25rem;
+      margin-bottom: var(--spacing-lg);
+      opacity: 0.95;
+    }
+  }
+}
+
