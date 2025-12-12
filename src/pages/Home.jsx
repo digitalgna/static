@@ -91,22 +91,42 @@ const Home = () => {
     {
       image: 'https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800',
       title: 'Niagara Falls',
-      description: 'Experience the breathtaking power and beauty of the world-famous waterfalls.',
+      description: 'Experience the breathtaking power and beauty of the world-famous waterfalls. Feel the mist on your face as millions of gallons cascade over the edge every second, creating one of nature\'s most spectacular displays.',
     },
     {
       image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
       title: 'Hornblower Boat Tours',
-      description: 'Get up close to the falls with our signature boat tour experience.',
+      description: 'Get up close to the falls with our signature boat tour experience. Journey into the heart of the mist and feel the thunderous roar of the cascading waters as you navigate the powerful currents.',
     },
     {
       image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
       title: 'Skylon Tower',
-      description: '360-degree views of Niagara Falls from 775 feet above the ground.',
+      description: '360-degree panoramic views of Niagara Falls from 775 feet above the ground. Dine in the revolving restaurant while enjoying breathtaking vistas of the falls and surrounding landscape.',
     },
     {
       image: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?w=800',
       title: 'Night Illumination',
-      description: 'Witness the falls come alive with stunning nighttime light displays.',
+      description: 'Witness the falls come alive with stunning nighttime light displays. Every evening, the waterfalls are transformed into a mesmerizing canvas of colorful lights, creating a magical spectacle.',
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1531572753323-ad0633dd6615?w=800',
+      title: 'Journey Behind the Falls',
+      description: 'Explore the tunnels and observation decks that take you behind the thundering curtain of water. Experience the raw power of nature from a unique perspective few ever see.',
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1539650116574-75c0c6d73a2e?w=800',
+      title: 'Niagara Helicopter Tours',
+      description: 'Soar above the falls in a thrilling helicopter adventure. Capture stunning aerial views of all three waterfalls and the magnificent Niagara Gorge from the sky.',
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1539586341727-0c19f016758e?w=800',
+      title: 'White Water Walk',
+      description: 'Stroll along the boardwalk beside the Class 6 rapids of the Niagara River. Feel the power of the rushing waters as you walk through this natural wonder.',
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1519552928909-2ca90b5c3b3f?w=800',
+      title: 'Niagara-on-the-Lake',
+      description: 'Discover the charming historic town just 20 minutes away. Explore wineries, boutique shops, and colonial architecture in this picturesque lakeside destination.',
     },
   ];
 
